@@ -32,7 +32,7 @@ namespace Line_Comaparison
             double N1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter the Value M2: ");
-            double M2 = Convert.ToInt3ToDouble2(Console.ReadLine());
+            double M2 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter the Value N2: ");
             double N2 = Convert.ToDouble(Console.ReadLine());
