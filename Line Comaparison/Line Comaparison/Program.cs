@@ -13,29 +13,29 @@ namespace Line_Comaparison
 
             Console.WriteLine("First Line");
             Console.Write("Enter the Value x1: ");
-            double x1 = Convert.ToInt32(Console.ReadLine());
+            double x1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter the Value y1: ");
-            double y1 = Convert.ToInt32(Console.ReadLine());
+            double y1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter the Value x2: ");
-            double x2 = Convert.ToInt32(Console.ReadLine());
+            double x2 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter the Value y2: ");
-            double y2 = Convert.ToInt32(Console.ReadLine());
+            double y2 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Second Line");
             Console.Write("Enter the Value M1: ");
-            double M1 = Convert.ToInt32(Console.ReadLine());
+            double M1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter the Value N1: ");
-            double N1 = Convert.ToInt32(Console.ReadLine());
+            double N1 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter the Value M2: ");
-            double M2 = Convert.ToInt32(Console.ReadLine());
+            double M2 = Convert.ToInt3ToDouble2(Console.ReadLine());
 
             Console.Write("Enter the Value N2: ");
-            double N2 = Convert.ToInt32(Console.ReadLine());
+            double N2 = Convert.ToDouble(Console.ReadLine());
 
             double pointsx = Math.Pow(2, (x2 - x1));
             double pointsy = Math.Pow(2, (y2 - y1));
