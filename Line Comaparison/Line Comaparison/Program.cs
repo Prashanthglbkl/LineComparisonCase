@@ -10,23 +10,46 @@ namespace Line_Comaparison
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter the Co-rdinate x1: ");
-            double x1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Enter the Co-rdinate y1: ");
-            double y1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("First Line");
+            Console.Write("Enter the Value x1: ");
+            double x1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter the Co-rdinate x2: ");
-            double x2 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter the Value y1: ");
+            double y1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter the Co-rdinate y2: ");
-            double y2 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter the Value x2: ");
+            double x2 = Convert.ToInt32(Console.ReadLine());
 
-            double points1 = Math.Pow(2, (x2 - x1));
-            double points2 = Math.Pow(2, (y2 - y1));
-            double LengthofLine = Math.Sqrt((points1 + points2));
-            Console.WriteLine("Length of the Line is: " + LengthofLine);
+            Console.Write("Enter the Value y2: ");
+            double y2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Second Line");
+            Console.Write("Enter the Value M1: ");
+            double M1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter the Value N1: ");
+            double N1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter the Value M2: ");
+            double M2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter the Value N2: ");
+            double N2 = Convert.ToInt32(Console.ReadLine());
+
+            double pointsx = Math.Pow(2, (x2 - x1));
+            double pointsy = Math.Pow(2, (y2 - y1));
+            double LengthofLine1 = Math.Sqrt((pointsx + pointsy));
+            Console.WriteLine("Length of the Line is: " + LengthofLine1);
+
+            double pointsM = Math.Pow(2, (M2 - M1));
+            double pointsN = Math.Pow(2, (N2 - N1));
+            double LengthofLine2 = Math.Sqrt((pointsM + pointsN));
+            Console.WriteLine("Length of the Line is: " + LengthofLine2);
+
+            Console.WriteLine(LengthofLine1.Equals(LengthofLine2));
             Console.ReadLine();
+
         }
     }
 }
