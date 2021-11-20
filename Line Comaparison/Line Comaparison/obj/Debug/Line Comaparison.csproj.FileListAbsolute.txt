@@ -1,0 +1,7 @@
+D:\LineComparison\Line Comaparison\Line Comaparison\bin\Debug\Line Comaparison.exe.config
+D:\LineComparison\Line Comaparison\Line Comaparison\bin\Debug\Line Comaparison.exe
+D:\LineComparison\Line Comaparison\Line Comaparison\bin\Debug\Line Comaparison.pdb
+D:\LineComparison\Line Comaparison\Line Comaparison\obj\Debug\Line Comaparison.csproj.AssemblyReference.cache
+D:\LineComparison\Line Comaparison\Line Comaparison\obj\Debug\Line Comaparison.csproj.CoreCompileInputs.cache
+D:\LineComparison\Line Comaparison\Line Comaparison\obj\Debug\Line Comaparison.exe
+D:\LineComparison\Line Comaparison\Line Comaparison\obj\Debug\Line Comaparison.pdb
